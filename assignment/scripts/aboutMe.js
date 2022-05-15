@@ -37,13 +37,13 @@ const allowedPets = 3;
 console.log(allowedPets)
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-if (adventurous == true) {
+if (adventurous === true) {
     console.log("Adventures are great!");} 
     else {
         console.log("How about we stay home?");}
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if (luckyNumber == 2 && adventurous == true) {
+if (luckyNumber === 2 && adventurous === true) {
     console.log("Roll the dice!");} 
     else {
         console.log("We need a different lucky number!");}
